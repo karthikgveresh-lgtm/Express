@@ -64,6 +64,7 @@ app.get('/jokes', (req, res) => {
     const jokes = [
         {
             "id": 1,
+            "title": "one liner",
             "joke": "Why don't scientists trust atoms? Because they make up everything!"
         },
         {
