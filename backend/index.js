@@ -69,18 +69,22 @@ app.get('/jokes', (req, res) => {
         },
         {
             "id": 2,
+            "title": "two liner",
             "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised."
         },
         {
             "id": 3,
+            "title": "three liner",
             "joke": "What do you call a fake noodle? An impasta!"
         },
         {
             "id": 4,
+            "title": "four liner",
             "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!"
         },
         {
             "id": 5,
+            "title": "five liner",
             "joke": "I'm reading a book about anti-gravity. It's impossible to put down!"
         }
     ]
