@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import axios from 'axios'
 import './App.css'
 import { useEffect } from 'react'
@@ -25,11 +22,11 @@ function App() {
       <h1>hello welcome to jokes</h1>
       <p> Total number of Jokes: {jokes.length}</p>
       {
-        jokes.map((jokes, index) => {
+        jokes.map((joke, index) => {
           return (
-            <div key={jokes.id}>
-              <h2>{jokes.title}</h2>
-              <p>{jokes.joke}</p>
+            <div key={joke.id}>
+              <h2>{joke.title}</h2>
+              <p>{joke.joke}</p>
             </div>
           )
         })
